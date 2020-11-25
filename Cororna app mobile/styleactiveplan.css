@@ -1,0 +1,48 @@
+/* The active plan layout */
+
+body {
+    margin: 0;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 60px 2fr
+
+}
+
+h1 {
+    font-size: 45px;
+    color:rgb(133, 2, 2);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+footer {
+    border-top: 1px solid #000; border-bottom: 1px solid #000 
+}
+
+.icon {
+    height: 50px;
+    padding: 10px;
+}
+.icon_home {
+    height: 60px;
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

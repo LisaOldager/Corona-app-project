@@ -1,0 +1,86 @@
+/* Basic layout */
+
+body {
+    margin: 0;
+}
+
+/*main {
+    background-color: rgb(0, 0, 0);
+    padding-top: 40px;
+    border-radius: 80px;
+}*/
+
+h1 {
+    font-size: 45px;
+    color:rgb(133, 2, 2);
+    margin-bottom: 0;
+}
+
+h2 {
+    border-radius: 20px;
+    padding: 80px;
+    color: rgb(255, 255, 255);
+            font-size: 40px;
+            text-shadow: -1px 1px 0 rgb(0, 0, 0),
+                          1px 1px 0 #000,
+                         1px -1px 0 rgb(0, 0, 0),
+                        -1px -1px 0 #000;
+
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 30px;
+    color: rgb(0, 0, 0);
+}
+
+.klicker {
+    background-image: url(img/gamefrontvirusblue.PNG);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+
+}
+
+.maze {
+    background-image: url(img/redmaze1.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+       
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+
+    /* Footer layout */
+
+footer {
+    border-top: 1px solid #000; border-bottom: 1px solid #000 
+}
+
+.icon {
+    height: 50px;
+    padding: 10px;
+}
+.icon_home {
+    height: 60px;
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    background-color: rgb(133, 2, 2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    flex-wrap: nowrap;
+       
+}
+
+/* Styling the scroll and fixed bottom menu */
+.scroll {
+    overflow-y: scroll;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+/* Footer layout
+
+footer {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    height: 50px;
+    background-color: rgb(187, 187, 187);
+}
+
+nav {
+    display: grid;
+}
+
+img {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 30px;
+}
+
+a {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+} */
+
+
+footer {
+    border-top: 1px solid #000; border-bottom: 1px solid #000 
+
+}
+
+.icon {
+    height: 50px;
+    padding: 10px;
+}
+.icon_home {
+    height: 60px;
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+
+}
