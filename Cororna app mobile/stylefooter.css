@@ -1,0 +1,31 @@
+   /* Layout template */
+   
+   a {
+       color: white;
+   }
+   
+   
+   /* Footer layout */
+
+.fixed_footer {
+    border-top: 1px solid #000; border-bottom: 1px solid #000;
+    background: white;
+    border-top: 1px solid #000; border-bottom: 1px solid #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    height: 50px;
+    padding: 10px;
+}
+.icon_home {
+    height: 60px;
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
