@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<script>
+    var viruscount = 0;
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Game</title>
+</head>
+<body>
+
+<section>
+    <a href=# onclick="add()"><img src="img/gamevirus2.png"></a>
+    <style>
+        body {
+            background: rgb(180,231,255);
+            background: radial-gradient(circle, rgba(180,231,255,1) 0%, rgba(120,163,207,1) 100%);
+        }
+        header {
+            text-align: center;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        img {
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+        <a href="http://127.0.0.1:5500/games.html"><button class="top_button">Play again?</button></a>
+</section>
+
+<nav>
+    <button><a href="http://127.0.0.1:5500/health.html">Save</a></button>
+    <button><a href="http://127.0.0.1:5500/home.html" onclick="load()">Quit</a></button>
+
+    <style>
+        .top_button {
+            margin: 60px;
+            width: 70%;
+            color: white;
+        
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        button {
+            width: 50%;
+            margin: 20px 10px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgb(255, 0, 0);
+            font-size: 30px;
+        }
+        a {
+            color: white;
+        }
+    </style>
+
+</nav>
+
+</body>
+</html>

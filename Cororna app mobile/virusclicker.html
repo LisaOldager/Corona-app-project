@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<script>
+    var viruscount = 0;
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Game</title>
+</head>
+<body>
+    <header>
+        <h1>Click The Virus</h1>
+    </header>
+
+<section>
+    <a href=# onclick="add()"><img src="img/gamevirus.png"></a>
+    <style>
+        body {
+            background: rgb(180,231,255);
+            background: radial-gradient(circle, rgba(180,231,255,1) 0%, rgba(120,163,207,1) 100%);
+        }
+        header {
+            text-align: center;
+            padding-top: 40px;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        button {
+            width: 50%;
+            margin: 50px 10px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgb(255, 0, 0);
+            font-size: 30px;
+        }
+        a {
+            color: white;
+        }
+        img {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+    </style>
+</section>
+    <br><br>
+    You got:
+    <input type="text" id="text" disabled style= text-align:center>
+    <script>
+    function add() {
+        viruscount = viruscount + 1
+        document.getElementById('text').value = viruscount;
+        document.title = viruscount + " Viruses"
+    }
+    </script>
+    Viruses
+
+<nav>
+    <button><a href="http://127.0.0.1:5500/health.html" onclick="save()">Save</a></button>
+    <button><a href="http://127.0.0.1:5500/virusclicker2.html" onclick="load()">Quit</a></button>
+</nav>
+
+</body>
+</html>

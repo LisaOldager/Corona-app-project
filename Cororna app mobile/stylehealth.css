@@ -45,26 +45,8 @@ button {
     color: white;
     border: none;
     background-color: rgb(153, 11, 11);
-    font-size: 30px
+    font-size: 30px;
 
 }
 
 
-
-footer {
-    border-top: 1px solid #000; border-bottom: 1px solid #000 
-}
-
-.icon {
-    height: 50px;
-    padding: 10px;
-}
-.icon_home {
-    height: 60px;
-}
-
-.footer_icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}

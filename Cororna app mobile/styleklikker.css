@@ -1,0 +1,17 @@
+
+@media only screen and (max-width: 460px) {
+
+h2 {
+    border-radius: 20px;
+    background-color: #8b000082;
+    color: white;
+    border: 0px solid hsla(0, 100%, 27%, 0.51);
+    font-size: 80px;
+    width: 500px;
+   
+} 
+
+img {
+        width: 600%;
+
+}

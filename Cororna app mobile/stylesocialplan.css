@@ -26,23 +26,9 @@ p {
     flex-direction: column;
     justify-content: space-between;
     margin: 10px;
+    background-image: url(img/coronafadet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-footer {
-    border-top: 1px solid #000; border-bottom: 1px solid #000 
-}
-
-.icon {
-    height: 50px;
-    padding: 10px;
-}
-.icon_home {
-    height: 60px;
-}
-
-.footer_icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
